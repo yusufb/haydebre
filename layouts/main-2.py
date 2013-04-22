@@ -56,14 +56,10 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
-        self.pushButton_2.setText(_translate("MainWindow", "Yeni Oyun", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "x", None))
+        self.pushButton_2.setText(_translate("MainWindow", "x", None))
         self.pushButton_3.setText(_translate("MainWindow", "Sezona Devam Et", None))
         self.pushButton_4.setText(_translate("MainWindow", "Hakkımızda", None))
-        
-
-    def calluser(self):
-        self.pushButton_2.setText(_translate("MainWindow", "hopp", None))
 
 
 if __name__ == "__main__":
@@ -73,6 +69,5 @@ if __name__ == "__main__":
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
-    self.button.clicked.connect(self.calluser)
     sys.exit(app.exec_())
 
