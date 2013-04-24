@@ -30,7 +30,7 @@ class Ui_MainWindow(object):
         MainWindow.setStyleSheet(_fromUtf8(""))
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
-#        self.centralwidget.setStyleSheet("background:url(kocayusuf.png)")
+        self.centralwidget.setStyleSheet("background:url(kocayusuf.png)")
         self.pushButton_2 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(360, 180, 251, 71))
         self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
@@ -62,8 +62,6 @@ class Ui_MainWindow(object):
         self.pushButton_4.setText(_translate("MainWindow", "Hakkımızda", None))
         
 
-    def calluser(self):
-        self.pushButton_2.setText(_translate("MainWindow", "hopp", None))
 
 
 if __name__ == "__main__":
@@ -73,6 +71,5 @@ if __name__ == "__main__":
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
-    self.button.clicked.connect(self.calluser)
     sys.exit(app.exec_())
 
