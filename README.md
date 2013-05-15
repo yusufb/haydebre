@@ -13,6 +13,6 @@ A Wrestling Management Simulation written in [Python](http://www.python.org/) fo
 
 
 ####In-Game Features
-*   Managimg a wrestling team
+*   Managing a wrestling team
 *   Transfering wrestlers
 *   Improving wrestler skills with trainings and matches
