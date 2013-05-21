@@ -92,7 +92,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "  Hayde Bre !      ", None))
         self.pushButton_4.setText(_translate("MainWindow", "Hayde", None))
         self.pushButton.setText(_translate("MainWindow", "Yukle", None))
-        self.pushButton_3.setText(_translate("MainWindow", "ErMeydani", None))
+        self.pushButton_3.setText(_translate("MainWindow", "Er Meydanı", None))
         self.pushButton_2.setText(_translate("MainWindow", "Cikis", None))
 
 
@@ -103,5 +103,6 @@ if __name__ == "__main__":
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
+    MainWindow.setFixedSize(MainWindow.size());
     sys.exit(app.exec_())
 
